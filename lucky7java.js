@@ -156,7 +156,7 @@ button.addEventListener('click',function()
            }
         }
   if(potValue<0)
-  {alert("game over!!! not enough credit left if you want to play again refresh(f5)");}
+  {alert("game over!!! not enough credit left, please press next game button");}
   document.getElementById("pot").innerHTML = potValue;
      
 });
