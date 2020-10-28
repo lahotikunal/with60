@@ -103,7 +103,8 @@ rules.addEventListener('click', function() {
 
 });
 next_game.addEventListener('click',function(){
-  {location.href = "https://lahotikunal.github.io/insurance_sefi/";}
+    if(potValue<0)
+        {location.href = "https://lahotikunal.github.io/insurance_sefi/";}
 });
 //rules
 
@@ -156,7 +157,7 @@ button.addEventListener('click',function()
            }
         }
   if(potValue<0)
-  {alert("game over!!! not enough credit left, please press next game button");}
+    {alert("game over!!! not enough credit left, please press next game button");}
   document.getElementById("pot").innerHTML = potValue;
      
 });
