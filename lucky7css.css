@@ -43,6 +43,14 @@ input[type=radio] {
   position: absolute;
   display: none;
 }
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+<img src="iiit-new _logo.png" alt="Paris">
 
 
 label {
