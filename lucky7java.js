@@ -3,8 +3,8 @@ var diceValue1,
 var diceValue,
     potValue,
     radioValue = '=7',
-    bidValue = 30,
-    premium = 20;
+    bidValue = 3000000,
+    premium = 2000000;
 
 function myRadioValue(dice) {
     radioValue = dice;
@@ -156,7 +156,7 @@ button.addEventListener('click',function()
            }
         }
   if(potValue<0)
-    {alert("game over!!! not enough credit left,you have insurnce of 60 units,please press next game button");}
+    {alert("game over!!! not enough credit left,you have insurnce of 60 lakhs,please press next game button");}
   document.getElementById("pot").innerHTML = potValue;
      
 });
